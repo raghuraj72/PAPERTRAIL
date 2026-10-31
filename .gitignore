@@ -25,3 +25,5 @@ Thumbs.db
 # Local data (preserve directory structure but not user files)
 backend/data/uploads/*
 !backend/data/uploads/.gitkeep
+backend/data/workspaces/*
+!backend/data/workspaces/.gitkeep

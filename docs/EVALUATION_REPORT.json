@@ -11,6 +11,6 @@
   "contradictions_detected_count": 2,
   "contradiction_recall": 1.0,
   "retrieval_relevance": 1.0,
-  "processing_time_seconds": 0.135,
+  "processing_time_seconds": 0.126,
   "error_rate": 0.0
 }

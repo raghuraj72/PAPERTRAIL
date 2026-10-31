@@ -36,6 +36,7 @@ import { RequirementGraph } from './components/RequirementGraph';
 import { DeadlineTimeline } from './components/DeadlineTimeline';
 import { DocumentComparator } from './components/DocumentComparator';
 import { PlainTranslatorModal } from './components/PlainTranslatorModal';
+import { DashboardView } from './components/DashboardView';
 
 export const App: React.FC = () => {
   const [workspaces, setWorkspaces] = useState<WorkspaceSummary[]>([]);
@@ -43,7 +44,7 @@ export const App: React.FC = () => {
   const [activeDocIndex, setActiveDocIndex] = useState<number>(0);
   const [activeCitation, setActiveCitation] = useState<ProoflineCitation | null>(null);
 
-  const [activeTab, setActiveTab] = useState<'workspace' | 'graph' | 'compare' | 'timeline'>('workspace');
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'workspace' | 'graph' | 'compare' | 'timeline'>('dashboard');
   const [rightPanelTab, setRightPanelTab] = useState<'action_plan' | 'ask_ai'>('action_plan');
 
   const [isReadinessOpen, setIsReadinessOpen] = useState<boolean>(false);
@@ -136,7 +137,7 @@ export const App: React.FC = () => {
       await loadWorkspacesList();
       setActiveWorkspace(ws);
       setActiveDocIndex(0);
-      setActiveTab('workspace');
+      setActiveTab('dashboard');
       setShowUploaderModal(false);
     } catch (err) {
       alert('Failed to load synthetic demo: ' + (err as any).message);
@@ -284,6 +285,19 @@ export const App: React.FC = () => {
           /* Main Workspace Views */
           <div className="flex-1 flex flex-col space-y-4">
             
+            {/* View Tab 0: Interactive Command Center Dashboard */}
+            {activeTab === 'dashboard' && activeWorkspace && (
+              <div className="flex-1 w-full">
+                <DashboardView
+                  workspace={activeWorkspace}
+                  onNavigateToCitation={handleNavigateToCitation}
+                  onOpenReadiness={() => setIsReadinessOpen(true)}
+                  onGoToTab={(tab) => setActiveTab(tab)}
+                  onTaskUpdated={handleTaskUpdated}
+                />
+              </div>
+            )}
+
             {/* View Tab 1: Primary Document Workspace (Three-Panel Layout) */}
             {activeTab === 'workspace' && activeDoc && (
               <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-4 h-[calc(100vh-120px)] min-h-[600px]">

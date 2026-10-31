@@ -26,8 +26,8 @@ interface NavbarProps {
   onToggleHighContrast: () => void;
   fontScale: number;
   onChangeFontScale: (delta: number) => void;
-  activeTab: 'workspace' | 'graph' | 'compare' | 'timeline';
-  onChangeTab: (tab: 'workspace' | 'graph' | 'compare' | 'timeline') => void;
+  activeTab: 'dashboard' | 'workspace' | 'graph' | 'compare' | 'timeline';
+  onChangeTab: (tab: 'dashboard' | 'workspace' | 'graph' | 'compare' | 'timeline') => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -110,7 +110,17 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
 
           {/* Navigation View Tabs */}
-          <div className="hidden lg:flex items-center bg-slate-100 dark:bg-slate-800/80 p-0.5 rounded-lg border border-slate-200 dark:border-slate-700 text-xs">
+          <div className="hidden md:flex items-center bg-slate-100 dark:bg-slate-800/80 p-0.5 rounded-lg border border-slate-200 dark:border-slate-700 text-xs">
+            <button
+              onClick={() => onChangeTab('dashboard')}
+              className={`px-3 py-1 rounded-md font-semibold transition ${
+                activeTab === 'dashboard'
+                  ? 'bg-white dark:bg-slate-700 text-sky-600 dark:text-sky-300 shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+              }`}
+            >
+              Command Center
+            </button>
             <button
               onClick={() => onChangeTab('workspace')}
               className={`px-3 py-1 rounded-md font-medium transition ${
@@ -221,8 +231,63 @@ export const Navbar: React.FC<NavbarProps> = ({
             {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </button>
         </div>
-
       </div>
+
+      {/* Mobile Sub-Navigation for active workspace */}
+      {activeWorkspace && (
+        <div className="md:hidden border-t border-slate-200/80 dark:border-slate-800 px-3 py-1.5 flex items-center gap-1.5 overflow-x-auto scrollbar-none bg-slate-50/90 dark:bg-slate-900/90 text-xs">
+          <button
+            onClick={() => onChangeTab('dashboard')}
+            className={`px-2.5 py-1 rounded-md font-semibold whitespace-nowrap transition ${
+              activeTab === 'dashboard'
+                ? 'bg-sky-600 text-white shadow-xs'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+            }`}
+          >
+            Command Center
+          </button>
+          <button
+            onClick={() => onChangeTab('workspace')}
+            className={`px-2.5 py-1 rounded-md font-medium whitespace-nowrap transition ${
+              activeTab === 'workspace'
+                ? 'bg-sky-600 text-white shadow-xs'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+            }`}
+          >
+            Workspace
+          </button>
+          <button
+            onClick={() => onChangeTab('graph')}
+            className={`px-2.5 py-1 rounded-md font-medium whitespace-nowrap transition ${
+              activeTab === 'graph'
+                ? 'bg-sky-600 text-white shadow-xs'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+            }`}
+          >
+            Workflow Graph
+          </button>
+          <button
+            onClick={() => onChangeTab('timeline')}
+            className={`px-2.5 py-1 rounded-md font-medium whitespace-nowrap transition ${
+              activeTab === 'timeline'
+                ? 'bg-sky-600 text-white shadow-xs'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+            }`}
+          >
+            Deadlines
+          </button>
+          <button
+            onClick={() => onChangeTab('compare')}
+            className={`px-2.5 py-1 rounded-md font-medium whitespace-nowrap transition ${
+              activeTab === 'compare'
+                ? 'bg-sky-600 text-white shadow-xs'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+            }`}
+          >
+            Compare
+          </button>
+        </div>
+      )}
     </header>
   );
 };

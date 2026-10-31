@@ -1,1721 +1,562 @@
 import { Workspace } from "../types";
 
 export const DEMO_WORKSPACE: Workspace = {
-  "id": "ws_e7c81f23",
-  "name": "Demo: The Application Clarity Challenge (2026)",
-  "created_at": "2026-10-31T18:33:40.049440+00:00",
-  "updated_at": "2026-10-31T18:33:40.312269+00:00",
-  "documents": [
+  id: "ws_demo_clarity_2026",
+  name: "Apex Fellowship & Innovation Grant 2026",
+  created_at: "2026-10-31T18:00:00.000Z",
+  updated_at: "2026-10-31T18:30:00.000Z",
+  action_plan_completed_count: 0,
+  action_plan_total_count: 15,
+  documents: [
     {
-      "id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-      "filename": "apex_fellowship_guidelines_2026.pdf",
-      "file_type": "pdf",
-      "file_size_bytes": 6526,
-      "upload_timestamp": "2026-10-31T18:33:40.065700+00:00",
-      "page_count": 3,
-      "document_title": "[SYNTHETIC DEMO] APEX FELLOWSHIP &",
-      "document_type": "Scholarship & Grant Guidelines",
-      "summary": "[SYNTHETIC DEMO] APEX FELLOWSHIP & is a Scholarship & Grant Guidelines. Key purpose: [SYNTHETIC DEMO] APEX FELLOWSHIP & INNOVATION GRANT 2026 Official Application Guidelines & Eligibility Manual Notice Ref: AFG-2026-V1.0 | Issued by the Global Education Directorate 1.0 PROGRAM PURPOSE & ELIGIBILITY CRITERIA The Apex Fellowship Progra...",
-      "sections": [
+      id: "doc_apex_2026",
+      filename: "apex_fellowship_guidelines_2026.pdf",
+      file_type: "pdf",
+      file_size_bytes: 6526,
+      upload_timestamp: "2026-10-31T18:00:00.000Z",
+      page_count: 3,
+      document_title: "Apex Fellowship & Innovation Grant 2026",
+      document_type: "Scholarship & Grant Guidelines",
+      summary: "Official application guidelines and eligibility manual for the Apex Fellowship & Innovation Grant 2026 issued by the Global Education Directorate. Outlines GPA thresholds, required academic documentation, portal submission steps, and conflicting deadline addenda.",
+      sections: [
         {
-          "id": "sec_p1_1",
-          "title": "[SYNTHETIC DEMO] APEX FELLOWSHIP &",
-          "page_number": 1,
-          "char_start": 0,
-          "char_end": 56,
-          "content_snippet": "[SYNTHETIC DEMO] APEX FELLOWSHIP &\nINNOVATION GRANT 2026",
-          "level": 2
+          id: "sec_1",
+          title: "1.0 PROGRAM PURPOSE & ELIGIBILITY CRITERIA",
+          page_number: 1,
+          char_start: 0,
+          char_end: 80,
+          content_snippet: "The Apex Fellowship Program offers merit-based financial support and mentorship to emerging technologists and researchers.",
+          level: 1
         },
         {
-          "id": "sec_p1_2",
-          "title": "Official Application Guidelines & Eligibility Manual",
-          "page_number": 1,
-          "char_start": 0,
-          "char_end": 52,
-          "content_snippet": "Official Application Guidelines & Eligibility Manual",
-          "level": 2
+          id: "sec_2",
+          title: "2.0 IMPORTANT DATES & TIMELINE",
+          page_number: 1,
+          char_start: 0,
+          char_end: 60,
+          content_snippet: "Application registration opens on August 15, 2026. Final submission deadline is October 15, 2026.",
+          level: 1
         },
         {
-          "id": "sec_p1_3",
-          "title": "1.0 PROGRAM PURPOSE & ELIGIBILITY CRITERIA",
-          "page_number": 1,
-          "char_start": 0,
-          "char_end": 42,
-          "content_snippet": "1.0 PROGRAM PURPOSE & ELIGIBILITY CRITERIA",
-          "level": 2
+          id: "sec_3",
+          title: "3.0 MANDATORY VS. OPTIONAL DOCUMENTS",
+          page_number: 2,
+          char_start: 0,
+          char_end: 70,
+          content_snippet: "All application dossiers must contain certified documentation according to the official table checklist.",
+          level: 1
         },
         {
-          "id": "sec_p1_4",
-          "title": "2.0 IMPORTANT DATES & TIMELINE",
-          "page_number": 1,
-          "char_start": 0,
-          "char_end": 30,
-          "content_snippet": "2.0 IMPORTANT DATES & TIMELINE",
-          "level": 2
+          id: "sec_4",
+          title: "4.0 APPLICATION COMPLETION PROCEDURES",
+          page_number: 2,
+          char_start: 0,
+          char_end: 60,
+          content_snippet: "Candidates shall complete all eight sections of the online application portal.",
+          level: 1
         },
         {
-          "id": "sec_p1_5",
-          "title": "Application Fee: Applicants must pay a non-refundable application fee of $50 USD through the payment gateway before",
-          "page_number": 1,
-          "char_start": 0,
-          "char_end": 127,
-          "content_snippet": "Application Fee: Applicants must pay a non-refundable application fee of $50 USD through the payment gateway before\nsubmission.",
-          "level": 2
+          id: "sec_5",
+          title: "5.0 SUBMISSION INSTRUCTIONS & DISCREPANCY DISCLOSURE",
+          page_number: 3,
+          char_start: 0,
+          char_end: 70,
+          content_snippet: "Applicants must submit their finalized application through the official Apex Portal.",
+          level: 1
         },
         {
-          "id": "sec_p2_6",
-          "title": "3.0 MANDATORY VS. OPTIONAL DOCUMENTS",
-          "page_number": 2,
-          "char_start": 0,
-          "char_end": 36,
-          "content_snippet": "3.0 MANDATORY VS. OPTIONAL DOCUMENTS",
-          "level": 2
+          id: "sec_6",
+          title: "Section 5.3 Extension Clause & Final Cutoff",
+          page_number: 3,
+          char_start: 0,
+          char_end: 65,
+          content_snippet: "Due to server maintenance, final submission deadline is November 1, 2026 at 5:00 PM EST.",
+          level: 2
         },
         {
-          "id": "sec_p2_7",
-          "title": "4.0 APPLICATION COMPLETION PROCEDURES",
-          "page_number": 2,
-          "char_start": 0,
-          "char_end": 37,
-          "content_snippet": "4.0 APPLICATION COMPLETION PROCEDURES",
-          "level": 2
-        },
-        {
-          "id": "sec_p3_8",
-          "title": "5.0 SUBMISSION INSTRUCTIONS & DISCREPANCY DISCLOSURE",
-          "page_number": 3,
-          "char_start": 0,
-          "char_end": 52,
-          "content_snippet": "5.0 SUBMISSION INSTRUCTIONS & DISCREPANCY DISCLOSURE",
-          "level": 2
-        },
-        {
-          "id": "sec_p3_9",
-          "title": "Applicants must submit their finalized application through the official Apex Portal. Upon submission, candidates",
-          "page_number": 3,
-          "char_start": 0,
-          "char_end": 290,
-          "content_snippet": "Applicants must submit their finalized application through the official Apex Portal. Upon submission, candidates\nshall retain the unique 10-digit application tracking number. Applicants must verify th",
-          "level": 2
-        },
-        {
-          "id": "sec_p3_10",
-          "title": "Due to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All",
-          "page_number": 3,
-          "char_start": 0,
-          "char_end": 196,
-          "content_snippet": "Due to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All\nsupporting materials and recommendation letters must be received by this extended date.",
-          "level": 2
-        },
-        {
-          "id": "sec_p3_11",
-          "title": "Fee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The",
-          "page_number": 3,
-          "char_start": 0,
-          "char_end": 185,
-          "content_snippet": "Fee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The\n$50 fee mentioned previously has been waived for all 2026 applicants.",
-          "level": 2
-        },
-        {
-          "id": "sec_p3_12",
-          "title": "6.0 SUPPORT & INQUIRIES",
-          "page_number": 3,
-          "char_start": 0,
-          "char_end": 23,
-          "content_snippet": "6.0 SUPPORT & INQUIRIES",
-          "level": 1
+          id: "sec_7",
+          title: "6.0 SUPPORT & INQUIRIES",
+          page_number: 3,
+          char_start: 0,
+          char_end: 45,
+          content_snippet: "Helpdesk support: support@apexfellowship2026.org",
+          level: 1
         }
       ],
-      "pages_text": {
-        "1": "[SYNTHETIC DEMO] APEX FELLOWSHIP &\nINNOVATION GRANT 2026\nOfficial Application Guidelines & Eligibility Manual\nNotice Ref: AFG-2026-V1.0 | Issued by the Global Education Directorate\n1.0 PROGRAM PURPOSE & ELIGIBILITY CRITERIA\nThe Apex Fellowship Program offers merit-based financial support and mentorship to emerging technologists and\nresearchers. Applicants must be currently enrolled full-time in an accredited undergraduate degree program in\nscience, engineering, or mathematics. Candidates shall maintain a minimum cumulative grade point average (GPA)\nof 3.2 on a 4.0 scale (or equivalent 80% mark). Applicants must submit proof of active university enrollment issued\nwithin the last 60 days.\nImportant Exception: Final-year undergraduate students who have completed all coursework but have not yet\nreceived their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter\nfrom their dean.\n2.0 IMPORTANT DATES & TIMELINE\nApplication registration opens on August 15, 2026 at 9:00 AM EST. The preliminary document review period will\ncommence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late\nsubmissions or supplemental documents will be accepted after this cutoff.\nApplication Fee: Applicants must pay a non-refundable application fee of $50 USD through the payment gateway before\nsubmission.\n",
-        "2": "3.0 MANDATORY VS. OPTIONAL DOCUMENTS\nAll application dossiers must contain certified documentation. Review the checklist below carefully. Incomplete\ndossiers will be rejected during technical triage without substantive evaluation.\nDocument Name\nFormat & Specs\nRequirement Status\nOfficial Academic Transcript\nPDF format, signed and stamped by Registrar\nMandatory\nGovernment-Issued Photo ID\nPassport or National Identity Card (Color scan)\nMandatory\nStatement of Purpose (SOP)\nMaximum 1,000 words, 12pt font,\ndouble-spaced\nMandatory\nLetters of Recommendation (2)\nDirect upload by academic mentors on official\nletterhead\nMandatory\nProject Portfolio / GitHub Link\nPublic URL or compressed ZIP under 10MB\nOptional /\nRecommended\nStandardized Test Scores\n(GRE/GATE)\nOfficial score report within last 2 years\nOptional\n4.0 APPLICATION COMPLETION PROCEDURES\nCandidates shall complete all eight sections of the online application portal. Applicants must verify their personal\ncontact details and permanent address. The Statement of Purpose must explicitly address the candidate's\nproposed research impact, technical milestones, and societal relevance. Candidates are encouraged to attach a\nportfolio highlighting previous open-source software contributions.\n",
-        "3": "5.0 SUBMISSION INSTRUCTIONS & DISCREPANCY DISCLOSURE\nApplicants must submit their finalized application through the official Apex Portal. Upon submission, candidates\nshall retain the unique 10-digit application tracking number. Applicants must verify that all uploaded PDF files are\nreadable and corruption-free prior to pressing final submit.\nSection 5.3 Extension Clause & Final Cutoff\nDue to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All\nsupporting materials and recommendation letters must be received by this extended date.\nFee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The\n$50 fee mentioned previously has been waived for all 2026 applicants.\n6.0 SUPPORT & INQUIRIES\nFor technical portal issues or requirement clarification, contact the Apex Fellowship Helpdesk at\nsupport@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL:\nhttps://portal.apexfellowship2026.org\nNotice: This synthetic document was generated as a benchmark challenge document for testing PAPERTRAIL document\nintelligence.\n"
+      pages_text: {
+        1: `[SYNTHETIC DEMO] APEX FELLOWSHIP & INNOVATION GRANT 2026
+Official Application Guidelines & Eligibility Manual
+Notice Ref: AFG-2026-V1.0 | Issued by the Global Education Directorate
+
+1.0 PROGRAM PURPOSE & ELIGIBILITY CRITERIA
+The Apex Fellowship Program offers merit-based financial support and mentorship to emerging technologists and researchers. Applicants must be currently enrolled full-time in an accredited undergraduate degree program in science, engineering, or mathematics. Candidates shall maintain a minimum cumulative grade point average (GPA) of 3.2 on a 4.0 scale (or equivalent 80% mark). Applicants must submit proof of active university enrollment issued within the last 60 days.
+
+Important Exception: Final-year undergraduate students who have completed all coursework but have not yet received their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter from their dean.
+
+2.0 IMPORTANT DATES & TIMELINE
+Application registration opens on August 15, 2026 at 9:00 AM EST. The preliminary document review period will commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late submissions or supplemental documents will be accepted after this cutoff.
+
+Application Fee: Applicants must pay a non-refundable application fee of $50 USD through the payment gateway before submission.`,
+        2: `3.0 MANDATORY VS. OPTIONAL DOCUMENTS
+All application dossiers must contain certified documentation. Review the checklist below carefully. Incomplete dossiers will be rejected during technical triage without substantive evaluation.
+
+Document Name | Format & Specs | Requirement Status
+---------------------------------------------------------------------------------------------------
+Official Academic Transcript | PDF format, signed and stamped by Registrar | Mandatory
+Government-Issued Photo ID | Passport or National Identity Card (Color scan) | Mandatory
+Statement of Purpose (SOP) | Maximum 1,000 words, 12pt font, double-spaced | Mandatory
+Letters of Recommendation (2) | Direct upload by academic mentors on official letterhead | Mandatory
+Project Portfolio / GitHub Link | Public URL or compressed ZIP under 10MB | Optional / Recommended
+Standardized Test Scores (GRE/GATE) | Official score report within last 2 years | Optional
+
+4.0 APPLICATION COMPLETION PROCEDURES
+Candidates shall complete all eight sections of the online application portal. Applicants must verify their personal contact details and permanent address. The Statement of Purpose must explicitly address the candidate's proposed research impact, technical milestones, and societal relevance. Candidates are encouraged to attach a portfolio highlighting previous open-source software contributions.`,
+        3: `5.0 SUBMISSION INSTRUCTIONS & DISCREPANCY DISCLOSURE
+Applicants must submit their finalized application through the official Apex Portal. Upon submission, candidates shall retain the unique 10-digit application tracking number. Applicants must verify that all uploaded PDF files are readable and corruption-free prior to pressing final submit.
+
+Section 5.3 Extension Clause & Final Cutoff
+Due to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All supporting materials and recommendation letters must be received by this extended date.
+
+Fee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The $50 fee mentioned previously has been waived for all 2026 applicants.
+
+6.0 SUPPORT & INQUIRIES
+For technical portal issues or requirement clarification, contact the Apex Fellowship Helpdesk at support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL: https://portal.apexfellowship2026.org
+
+Notice: This synthetic document was generated as a benchmark challenge document for testing PAPERTRAIL document intelligence.`
       },
-      "requirements": [
-        {
-          "id": "req_1",
-          "title": "researchers. Applicants must be currently enrolled full-time in an accredited undergraduate degree program in",
-          "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "researchers. Applicants must be currently enrolled full-time in an accredited undergraduate degree program in science, engineering, or mathematics. Candidates shall maintain a minimum cumulative grade point average (GPA) of 3.2 on a 4.0 scale (or equivalent 80% mark). Applicants must submit proof of active university enrollment issued within the last 60 days.",
-          "category": "Documents to Prepare",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_2298d81de7",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "2.0 IMPORTANT DATES & TIMELINE",
-            "exact_passage": "researchers. Applicants must be currently enrolled full-time in an accredited undergraduate degree program in science, engineering, or mathematics. Candidates shall maintain a minimum cumulative grade point average (GPA) of 3.2 on a 4.0 scale (or equivalent 80% mark). Applicants must submit proof of active university enrollment issued within the last 60 days.",
-            "char_start": 334,
-            "char_end": 695,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 197.25,
-              "x1": 229.95,
-              "y1": 210.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 1 under '2.0 IMPORTANT DATES & TIMELINE'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_2",
-          "title": "received their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter",
-          "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "received their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter from their dean. 2.0 IMPORTANT DATES & TIMELINE Application registration opens on August 15, 2026 at 9:00 AM EST. The preliminary document review period will",
-          "category": "Documents to Prepare",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_2ad2717751",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "2.0 IMPORTANT DATES & TIMELINE",
-            "exact_passage": "received their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter from their dean. 2.0 IMPORTANT DATES & TIMELINE Application registration opens on August 15, 2026 at 9:00 AM EST. The preliminary document review period will",
-            "char_start": 802,
-            "char_end": 1081,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 275.25,
-              "x1": 215.5,
-              "y1": 288.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 1 under '2.0 IMPORTANT DATES & TIMELINE'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_3",
-          "title": "Candidates shall complete all eight sections of the online app...",
-          "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-          "original_wording": "Candidates shall complete all eight sections of the online application portal.",
-          "category": "Submission",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [
-            "req_1",
-            "req_2",
-            "req_8"
-          ],
-          "confidence": 0.94,
-          "citation": {
-            "id": "cite_41a94189ce",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "Candidates shall complete all eight sections of the online application portal.",
-            "char_start": 847,
-            "char_end": 925,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 394.25,
-              "x1": 226.63,
-              "y1": 407.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_4",
-          "title": "Complete all eight sections of the online application po...",
-          "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-          "original_wording": "shall complete all eight sections of the online application portal.",
-          "category": "Submission",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [
-            "req_1",
-            "req_2",
-            "req_8"
-          ],
-          "confidence": 0.94,
-          "citation": {
-            "id": "cite_d26cce3b66",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "shall complete all eight sections of the online application portal.",
-            "char_start": 858,
-            "char_end": 925,
-            "bounding_box": {
-              "x0": 104.36,
-              "y0": 394.25,
-              "x1": 272.77,
-              "y1": 407.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_5",
-          "title": "Official Academic Transcript",
-          "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "Official Academic Transcript PDF format, signed and stamped by Registrar Mandatory Government-Issued Photo ID",
-          "category": "Documents to Prepare",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_38233675a7",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "Official Academic Transcript PDF format, signed and stamped by Registrar Mandatory Government-Issued Photo ID",
-            "char_start": 279,
-            "char_end": 388,
-            "bounding_box": {
-              "x0": 52.0,
-              "y0": 139.25,
-              "x1": 176.47,
-              "y1": 152.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_6",
-          "title": "Government-Issued Photo ID",
-          "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "Government-Issued Photo ID Passport or National Identity Card (Color scan) Mandatory Statement of Purpose (SOP)",
-          "category": "Documents to Prepare",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_3bd34438c5",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "Government-Issued Photo ID Passport or National Identity Card (Color scan) Mandatory Statement of Purpose (SOP)",
-            "char_start": 362,
-            "char_end": 473,
-            "bounding_box": {
-              "x0": 52.0,
-              "y0": 165.25,
-              "x1": 181.5,
-              "y1": 178.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_7",
-          "title": "Passport or National Identity Card (Color scan)",
-          "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "Passport or National Identity Card (Color scan) Mandatory Statement of Purpose (SOP) Maximum 1,000 words, 12pt font,",
-          "category": "Documents to Prepare",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_d15466d2db",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "Passport or National Identity Card (Color scan) Mandatory Statement of Purpose (SOP) Maximum 1,000 words, 12pt font,",
-            "char_start": 389,
-            "char_end": 505,
-            "bounding_box": {
-              "x0": 232.0,
-              "y0": 165.25,
-              "x1": 408.73,
-              "y1": 178.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_8",
-          "title": "Statement of Purpose (SOP)",
-          "plain_language": "Mandatory: You need to provide statement of purpose (sop). Make sure to fulfill all stated criteria before proceeding.",
-          "original_wording": "Statement of Purpose (SOP) Maximum 1,000 words, 12pt font, double-spaced Mandatory",
-          "category": "Application Completion",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_693d785583",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "Statement of Purpose (SOP) Maximum 1,000 words, 12pt font, double-spaced Mandatory",
-            "char_start": 447,
-            "char_end": 529,
-            "bounding_box": {
-              "x0": 52.0,
-              "y0": 191.25,
-              "x1": 179.28,
-              "y1": 204.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_9",
-          "title": "Letters of Recommendation (2)",
-          "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "Letters of Recommendation (2) Direct upload by academic mentors on official letterhead Mandatory",
-          "category": "Documents to Prepare",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_d43ceab440",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "Letters of Recommendation (2) Direct upload by academic mentors on official letterhead Mandatory",
-            "char_start": 530,
-            "char_end": 626,
-            "bounding_box": {
-              "x0": 52.0,
-              "y0": 231.25,
-              "x1": 189.83,
-              "y1": 244.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_10",
-          "title": "Project Portfolio / GitHub Link",
-          "plain_language": "Optional: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "Project Portfolio / GitHub Link Public URL or compressed ZIP under 10MB Optional / Recommended",
-          "category": "Documents to Prepare",
-          "is_mandatory": false,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_be93655230",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "Project Portfolio / GitHub Link Public URL or compressed ZIP under 10MB Optional / Recommended",
-            "char_start": 627,
-            "char_end": 721,
-            "bounding_box": {
-              "x0": 52.0,
-              "y0": 271.25,
-              "x1": 183.16,
-              "y1": 284.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "Medium"
-        },
-        {
-          "id": "req_11",
-          "title": "Standardized Test Scores",
-          "plain_language": "Optional: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "Standardized Test Scores (GRE/GATE) Official score report within last 2 years Optional",
-          "category": "Documents to Prepare",
-          "is_mandatory": false,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_28ddacabb3",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "Standardized Test Scores (GRE/GATE) Official score report within last 2 years Optional",
-            "char_start": 722,
-            "char_end": 808,
-            "bounding_box": {
-              "x0": 52.0,
-              "y0": 311.25,
-              "x1": 167.05,
-              "y1": 324.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "Medium"
-        },
-        {
-          "id": "req_12",
-          "title": "contact details and permanent address. The Statement of Purpose must explicitly address the candidate's",
-          "plain_language": "Mandatory: You need to provide contact details and permanent address. Make sure to fulfill all stated criteria before proceeding.",
-          "original_wording": "contact details and permanent address. The Statement of Purpose must explicitly address the candidate's proposed research impact, technical milestones, and societal relevance. Candidates are encouraged to attach a portfolio highlighting previous open-source software contributions. ",
-          "category": "Application Completion",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_73355ac863",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "contact details and permanent address. The Statement of Purpose must explicitly address the candidate's proposed research impact, technical milestones, and societal relevance. Candidates are encouraged to attach a portfolio highlighting previous open-source software contributions.",
-            "char_start": 964,
-            "char_end": 1245,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 408.25,
-              "x1": 234.98,
-              "y1": 421.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_13",
-          "title": "portfolio highlighting previous open-source software contributions.",
-          "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "portfolio highlighting previous open-source software contributions. ",
-          "category": "Documents to Prepare",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_177f70fed9",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 2,
-            "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-            "exact_passage": "portfolio highlighting previous open-source software contributions.",
-            "char_start": 1178,
-            "char_end": 1245,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 436.25,
-              "x1": 224.97,
-              "y1": 449.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_14",
-          "title": "Submit their finalized application through the...",
-          "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-          "original_wording": "Applicants must submit their finalized application through the official Apex Portal.",
-          "category": "Submission",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [
-            "req_1",
-            "req_2",
-            "req_8"
-          ],
-          "confidence": 0.94,
-          "citation": {
-            "id": "cite_0d82012a37",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 3,
-            "section_heading": "support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL",
-            "exact_passage": "Applicants must submit their finalized application through the official Apex Portal.",
-            "char_start": 53,
-            "char_end": 137,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 73.25,
-              "x1": 223.84,
-              "y1": 86.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 3 under 'support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_15",
-          "title": "Candidates shall retain the unique 10-digit application tracki...",
-          "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-          "original_wording": "candidates shall retain the unique 10-digit application tracking number.",
-          "category": "Submission",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [
-            "req_1",
-            "req_2",
-            "req_8"
-          ],
-          "confidence": 0.94,
-          "citation": {
-            "id": "cite_c2b0d7a0d9",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 3,
-            "section_heading": "support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL",
-            "exact_passage": "candidates shall retain the unique 10-digit application tracking number.",
-            "char_start": 155,
-            "char_end": 227,
-            "bounding_box": {
-              "x0": 492.85,
-              "y0": 73.25,
-              "x1": 541.21,
-              "y1": 86.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 3 under 'support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_16",
-          "title": "Submit their finalized application through the official a...",
-          "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-          "original_wording": "must submit their finalized application through the official Apex Portal.",
-          "category": "Submission",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [
-            "req_1",
-            "req_2",
-            "req_8"
-          ],
-          "confidence": 0.94,
-          "citation": {
-            "id": "cite_e42ffcc1da",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 3,
-            "section_heading": "support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL",
-            "exact_passage": "must submit their finalized application through the official Apex Portal.",
-            "char_start": 64,
-            "char_end": 137,
-            "bounding_box": {
-              "x0": 99.91,
-              "y0": 73.25,
-              "x1": 266.08,
-              "y1": 86.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 3 under 'support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        },
-        {
-          "id": "req_17",
-          "title": "supporting materials and recommendation letters must be received by this extended date.",
-          "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-          "original_wording": "supporting materials and recommendation letters must be received by this extended date. Fee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The $50 fee mentioned previously has been waived for all 2026 applicants. 6.0 SUPPORT & INQUIRIES",
-          "category": "Documents to Prepare",
-          "is_mandatory": true,
-          "deadline": null,
-          "deadline_context": null,
-          "dependencies": [],
-          "confidence": 0.96,
-          "citation": {
-            "id": "cite_1405700f91",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 3,
-            "section_heading": "support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL",
-            "exact_passage": "supporting materials and recommendation letters must be received by this extended date. Fee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The $50 fee mentioned previously has been waived for all 2026 applicants. 6.0 SUPPORT & INQUIRIES",
-            "char_start": 497,
-            "char_end": 794,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 163.29,
-              "x1": 228.4,
-              "y1": 176.34
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 3 under 'support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL'"
-          },
-          "status": "Not Started",
-          "personal_notes": null,
-          "user_reminder": null,
-          "priority": "High"
-        }
+      requirements: [],
+      dates: [],
+      contradictions: [],
+      missing_or_unclear: [
+        "Confirm whether recommendation letters must be uploaded directly by mentors or sent via separate email link."
       ],
-      "dates": [
-        {
-          "id": "date_1",
-          "date_text": "August 15, 2026 at 9:00 AM",
-          "normalized_date": "August 15, 2026 at 9:00 AM",
-          "event_description": "Application registration opens on August 15, 2026 at 9:00 AM EST. The preliminary document review period will",
-          "date_type": "stated_milestone",
-          "citation": {
-            "id": "cite_bdf220cb3d",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "General",
-            "exact_passage": "Application registration opens on August 15, 2026 at 9:00 AM EST. The preliminary document review period will",
-            "char_start": 972,
-            "char_end": 1081,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 338.25,
-              "x1": 229.98,
-              "y1": 351.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 1 under 'General'"
-          },
-          "is_critical": false
-        },
-        {
-          "id": "date_2",
-          "date_text": "September 20, 2026",
-          "normalized_date": "September 20, 2026",
-          "event_description": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-          "date_type": "stated_deadline",
-          "citation": {
-            "id": "cite_8747ec0bd5",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "General",
-            "exact_passage": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-            "char_start": 1082,
-            "char_end": 1188,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 352.25,
-              "x1": 248.88,
-              "y1": 365.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 1 under 'General'"
-          },
-          "is_critical": true
-        },
-        {
-          "id": "date_3",
-          "date_text": "October 15, 2026 at 11:59 PM",
-          "normalized_date": "October 15, 2026 at 11:59 PM",
-          "event_description": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-          "date_type": "stated_deadline",
-          "citation": {
-            "id": "cite_eda31c2b28",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "General",
-            "exact_passage": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-            "char_start": 1082,
-            "char_end": 1188,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 352.25,
-              "x1": 248.88,
-              "y1": 365.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 1 under 'General'"
-          },
-          "is_critical": true
-        },
-        {
-          "id": "date_4",
-          "date_text": "deadline is October 15, 2026 at 11:59 PM EST",
-          "normalized_date": "deadline is October 15, 2026 at 11:59 PM EST",
-          "event_description": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-          "date_type": "stated_deadline",
-          "citation": {
-            "id": "cite_c663151b2b",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "General",
-            "exact_passage": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-            "char_start": 1082,
-            "char_end": 1188,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 352.25,
-              "x1": 248.88,
-              "y1": 365.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 1 under 'General'"
-          },
-          "is_critical": true
-        },
-        {
-          "id": "date_5",
-          "date_text": "November 1, 2026 at 5:00 PM",
-          "normalized_date": "November 1, 2026 at 5:00 PM",
-          "event_description": "Due to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All",
-          "date_type": "stated_deadline",
-          "citation": {
-            "id": "cite_ab71fc5f96",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 3,
-            "section_heading": "General",
-            "exact_passage": "Due to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All",
-            "char_start": 388,
-            "char_end": 496,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 150.29,
-              "x1": 221.55,
-              "y1": 163.34
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 3 under 'General'"
-          },
-          "is_critical": true
-        },
-        {
-          "id": "date_6",
-          "date_text": "deadline is November 1, 2026 at 5:00 PM EST",
-          "normalized_date": "deadline is November 1, 2026 at 5:00 PM EST",
-          "event_description": "Due to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All",
-          "date_type": "stated_deadline",
-          "citation": {
-            "id": "cite_070a0b6cf0",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 3,
-            "section_heading": "General",
-            "exact_passage": "Due to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All",
-            "char_start": 388,
-            "char_end": 496,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 150.29,
-              "x1": 221.55,
-              "y1": 163.34
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 3 under 'General'"
-          },
-          "is_critical": true
-        }
-      ],
-      "contradictions": [
-        {
-          "id": "contra_1",
-          "title": "Conflicting Application Deadlines",
-          "topic": "deadline",
-          "passage_a": {
-            "id": "cite_8747ec0bd5",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "General",
-            "exact_passage": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-            "char_start": 1082,
-            "char_end": 1188,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 352.25,
-              "x1": 248.88,
-              "y1": 365.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 1 under 'General'"
-          },
-          "passage_b": {
-            "id": "cite_eda31c2b28",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "General",
-            "exact_passage": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-            "char_start": 1082,
-            "char_end": 1188,
-            "bounding_box": {
-              "x0": 51.0,
-              "y0": 352.25,
-              "x1": 248.88,
-              "y1": 365.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 1 under 'General'"
-          },
-          "discrepancy_explanation": "The document provides two different final dates: 'September 20, 2026' (Page 1) and 'October 15, 2026 at 11:59 PM' (Page 1). It is unclear whether one is an extension or a clerical inconsistency.",
-          "severity": "critical",
-          "suggested_action": "Contact the issuing authority immediately to verify the true binding cutoff date before planning your submission."
-        },
-        {
-          "id": "contra_2",
-          "title": "Inconsistent Application Fee Requirement",
-          "topic": "fee",
-          "passage_a": {
-            "id": "cite_cb0b259a0d",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 1,
-            "section_heading": "2.0 IMPORTANT DATES & TIMELINE",
-            "exact_passage": "cutoff. Application Fee: Applicants must pay a non-refundable application fee of $50 USD through the payment gateway before submission. ",
-            "char_start": 1255,
-            "char_end": 1391,
-            "bounding_box": {
-              "x0": 349.45,
-              "y0": 366.25,
-              "x1": 376.69,
-              "y1": 379.99
-            },
-            "confidence": 0.92,
-            "verified": true,
-            "explanation": "Found on Page 1 under '2.0 IMPORTANT DATES & TIMELINE'"
-          },
-          "passage_b": {
-            "id": "cite_89a7857a9a",
-            "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-            "document_name": "apex_fellowship_guidelines_2026.pdf",
-            "page_number": 3,
-            "section_heading": "Section 5.3 Extension Clause & Final Cutoff",
-            "exact_passage": "candidate. The $50 fee mentioned previously has been waived for all 2026 applicants. 6.0 SUPPORT & INQUIRIES For technical portal issues or",
-            "char_start": 686,
-            "char_end": 825,
-            "bounding_box": {
-              "x0": 493.43,
-              "y0": 184.25,
-              "x1": 559.58,
-              "y1": 197.99
-            },
-            "confidence": 1.0,
-            "verified": true,
-            "explanation": "Found on Page 3 under 'Section 5.3 Extension Clause & Final Cutoff'"
-          },
-          "discrepancy_explanation": "One section references a fee structure of '50 usd', while another section states 'waived'. This could indicate either conditional fee waivers or conflicting instructions.",
-          "severity": "warning",
-          "suggested_action": "Verify fee requirements with the program billing coordinator prior to final payment submission."
-        }
-      ],
-      "missing_or_unclear": [],
-      "contact_details": [
+      contact_details: [
         "Email: support@apexfellowship2026.org",
         "Phone: +1 (555) 234-5678",
         "Portal: https://portal.apexfellowship2026.org"
       ],
-      "fee_info": "Fee: Applicants must pay a non-refundable application fee of $50"
+      fee_info: "$50 USD (Waived to $0 in Section 5.3 Addendum)"
     }
   ],
-  "combined_requirements": [
+  combined_requirements: [
     {
-      "id": "req_1",
-      "title": "researchers. Applicants must be currently enrolled full-time in an accredited undergraduate degree program in",
-      "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "researchers. Applicants must be currently enrolled full-time in an accredited undergraduate degree program in science, engineering, or mathematics. Candidates shall maintain a minimum cumulative grade point average (GPA) of 3.2 on a 4.0 scale (or equivalent 80% mark). Applicants must submit proof of active university enrollment issued within the last 60 days.",
-      "category": "Documents to Prepare",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_2298d81de7",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 1,
-        "section_heading": "2.0 IMPORTANT DATES & TIMELINE",
-        "exact_passage": "researchers. Applicants must be currently enrolled full-time in an accredited undergraduate degree program in science, engineering, or mathematics. Candidates shall maintain a minimum cumulative grade point average (GPA) of 3.2 on a 4.0 scale (or equivalent 80% mark). Applicants must submit proof of active university enrollment issued within the last 60 days.",
-        "char_start": 334,
-        "char_end": 695,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 197.25,
-          "x1": 229.95,
-          "y1": 210.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 1 under '2.0 IMPORTANT DATES & TIMELINE'"
+      id: "req_1",
+      title: "Minimum Cumulative GPA 3.2 on 4.0 Scale",
+      plain_language: "Mandatory: Confirm that your cumulative GPA is at least 3.2 on a 4.0 scale (or minimum 80% mark) before applying.",
+      original_wording: "Candidates shall maintain a minimum cumulative grade point average (GPA) of 3.2 on a 4.0 scale (or equivalent 80% mark).",
+      category: "Eligibility Verification",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: [],
+      confidence: 0.98,
+      citation: {
+        id: "cite_1",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 1,
+        section_heading: "1.0 PROGRAM PURPOSE & ELIGIBILITY CRITERIA",
+        exact_passage: "Candidates shall maintain a minimum cumulative grade point average (GPA) of 3.2 on a 4.0 scale (or equivalent 80% mark).",
+        confidence: 0.98,
+        verified: true,
+        explanation: "Stated as minimum baseline qualification on Page 1."
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_2",
-      "title": "received their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter",
-      "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "received their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter from their dean. 2.0 IMPORTANT DATES & TIMELINE Application registration opens on August 15, 2026 at 9:00 AM EST. The preliminary document review period will",
-      "category": "Documents to Prepare",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_2ad2717751",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 1,
-        "section_heading": "2.0 IMPORTANT DATES & TIMELINE",
-        "exact_passage": "received their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter from their dean. 2.0 IMPORTANT DATES & TIMELINE Application registration opens on August 15, 2026 at 9:00 AM EST. The preliminary document review period will",
-        "char_start": 802,
-        "char_end": 1081,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 275.25,
-          "x1": 215.5,
-          "y1": 288.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 1 under '2.0 IMPORTANT DATES & TIMELINE'"
+      id: "req_2",
+      title: "Full-Time Undergraduate Enrollment Proof (Issued within 60 Days)",
+      plain_language: "Mandatory: Provide an official certificate or letter confirming current full-time enrollment in STEM, dated within the last 60 days.",
+      original_wording: "Applicants must submit proof of active university enrollment issued within the last 60 days.",
+      category: "Eligibility Verification",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: [],
+      confidence: 0.97,
+      citation: {
+        id: "cite_2",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 1,
+        section_heading: "1.0 PROGRAM PURPOSE & ELIGIBILITY CRITERIA",
+        exact_passage: "Applicants must submit proof of active university enrollment issued within the last 60 days.",
+        confidence: 0.97,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_3",
-      "title": "Candidates shall complete all eight sections of the online app...",
-      "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-      "original_wording": "Candidates shall complete all eight sections of the online application portal.",
-      "category": "Submission",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [
-        "req_1",
-        "req_2",
-        "req_8"
-      ],
-      "confidence": 0.94,
-      "citation": {
-        "id": "cite_41a94189ce",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "Candidates shall complete all eight sections of the online application portal.",
-        "char_start": 847,
-        "char_end": 925,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 394.25,
-          "x1": 226.63,
-          "y1": 407.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_3",
+      title: "Dean's Provisional Degree Clearance Letter (Final-Year Exemption)",
+      plain_language: "Conditional Exemption: If you are in your final year without a diploma, obtain a signed provisional clearance letter from your Dean.",
+      original_wording: "Final-year undergraduate students who have completed all coursework but have not yet received their final diploma are eligible to apply, provided they furnish an official provisional degree clearance letter from their dean.",
+      category: "Eligibility Verification",
+      is_mandatory: false,
+      deadline: null,
+      deadline_context: null,
+      dependencies: [],
+      confidence: 0.94,
+      citation: {
+        id: "cite_3",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 1,
+        section_heading: "Important Exception",
+        exact_passage: "provided they furnish an official provisional degree clearance letter from their dean.",
+        confidence: 0.94,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "Medium"
     },
     {
-      "id": "req_4",
-      "title": "Complete all eight sections of the online application po...",
-      "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-      "original_wording": "shall complete all eight sections of the online application portal.",
-      "category": "Submission",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [
-        "req_1",
-        "req_2",
-        "req_8"
-      ],
-      "confidence": 0.94,
-      "citation": {
-        "id": "cite_d26cce3b66",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "shall complete all eight sections of the online application portal.",
-        "char_start": 858,
-        "char_end": 925,
-        "bounding_box": {
-          "x0": 104.36,
-          "y0": 394.25,
-          "x1": 272.77,
-          "y1": 407.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_4",
+      title: "Apex Portal Account Registration (Opens Aug 15)",
+      plain_language: "Mandatory: Create your profile on the official Apex Portal once registration opens on August 15, 2026 at 9:00 AM EST.",
+      original_wording: "Application registration opens on August 15, 2026 at 9:00 AM EST.",
+      category: "Before Applying",
+      is_mandatory: true,
+      deadline: "August 15, 2026 at 9:00 AM EST",
+      deadline_context: "Portal Registration Kickoff",
+      dependencies: ["req_1", "req_2"],
+      confidence: 0.95,
+      citation: {
+        id: "cite_4",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 1,
+        section_heading: "2.0 IMPORTANT DATES & TIMELINE",
+        exact_passage: "Application registration opens on August 15, 2026 at 9:00 AM EST.",
+        confidence: 0.95,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_5",
-      "title": "Official Academic Transcript",
-      "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "Official Academic Transcript PDF format, signed and stamped by Registrar Mandatory Government-Issued Photo ID",
-      "category": "Documents to Prepare",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_38233675a7",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "Official Academic Transcript PDF format, signed and stamped by Registrar Mandatory Government-Issued Photo ID",
-        "char_start": 279,
-        "char_end": 388,
-        "bounding_box": {
-          "x0": 52.0,
-          "y0": 139.25,
-          "x1": 176.47,
-          "y1": 152.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_5",
+      title: "Technical Guidelines & Triage Criteria Review",
+      plain_language: "Mandatory: Read all document specifications carefully; incomplete application dossiers will be rejected during triage without evaluation.",
+      original_wording: "Review the checklist below carefully. Incomplete dossiers will be rejected during technical triage without substantive evaluation.",
+      category: "Before Applying",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: [],
+      confidence: 0.92,
+      citation: {
+        id: "cite_5",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 2,
+        section_heading: "3.0 MANDATORY VS. OPTIONAL DOCUMENTS",
+        exact_passage: "Incomplete dossiers will be rejected during technical triage without substantive evaluation.",
+        confidence: 0.92,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_6",
-      "title": "Government-Issued Photo ID",
-      "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "Government-Issued Photo ID Passport or National Identity Card (Color scan) Mandatory Statement of Purpose (SOP)",
-      "category": "Documents to Prepare",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_3bd34438c5",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "Government-Issued Photo ID Passport or National Identity Card (Color scan) Mandatory Statement of Purpose (SOP)",
-        "char_start": 362,
-        "char_end": 473,
-        "bounding_box": {
-          "x0": 52.0,
-          "y0": 165.25,
-          "x1": 181.5,
-          "y1": 178.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_6",
+      title: "Official Academic Transcript (Registrar Stamped PDF)",
+      plain_language: "Mandatory: Obtain your official academic marksheet/transcript in PDF format, signed and stamped by the university Registrar.",
+      original_wording: "Official Academic Transcript: PDF format, signed and stamped by Registrar. Status: Mandatory.",
+      category: "Documents to Prepare",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: ["req_1"],
+      confidence: 0.99,
+      citation: {
+        id: "cite_6",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 2,
+        section_heading: "3.0 MANDATORY VS. OPTIONAL DOCUMENTS",
+        exact_passage: "Official Academic Transcript | PDF format, signed and stamped by Registrar | Mandatory",
+        confidence: 0.99,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_7",
-      "title": "Passport or National Identity Card (Color scan)",
-      "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "Passport or National Identity Card (Color scan) Mandatory Statement of Purpose (SOP) Maximum 1,000 words, 12pt font,",
-      "category": "Documents to Prepare",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_d15466d2db",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "Passport or National Identity Card (Color scan) Mandatory Statement of Purpose (SOP) Maximum 1,000 words, 12pt font,",
-        "char_start": 389,
-        "char_end": 505,
-        "bounding_box": {
-          "x0": 232.0,
-          "y0": 165.25,
-          "x1": 408.73,
-          "y1": 178.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_7",
+      title: "Government-Issued Photo ID (Passport or National ID)",
+      plain_language: "Mandatory: Color scan of your valid Passport or National Identity Card.",
+      original_wording: "Government-Issued Photo ID: Passport or National Identity Card (Color scan). Status: Mandatory.",
+      category: "Documents to Prepare",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: [],
+      confidence: 0.99,
+      citation: {
+        id: "cite_7",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 2,
+        section_heading: "3.0 MANDATORY VS. OPTIONAL DOCUMENTS",
+        exact_passage: "Government-Issued Photo ID | Passport or National Identity Card (Color scan) | Mandatory",
+        confidence: 0.99,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_8",
-      "title": "Statement of Purpose (SOP)",
-      "plain_language": "Mandatory: You need to provide statement of purpose (sop). Make sure to fulfill all stated criteria before proceeding.",
-      "original_wording": "Statement of Purpose (SOP) Maximum 1,000 words, 12pt font, double-spaced Mandatory",
-      "category": "Application Completion",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_693d785583",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "Statement of Purpose (SOP) Maximum 1,000 words, 12pt font, double-spaced Mandatory",
-        "char_start": 447,
-        "char_end": 529,
-        "bounding_box": {
-          "x0": 52.0,
-          "y0": 191.25,
-          "x1": 179.28,
-          "y1": 204.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_8",
+      title: "Two Letters of Recommendation (On Official Letterhead)",
+      plain_language: "Mandatory: Two academic mentors must submit letters on official university letterhead directly into the portal.",
+      original_wording: "Letters of Recommendation (2): Direct upload by academic mentors on official letterhead. Status: Mandatory.",
+      category: "Documents to Prepare",
+      is_mandatory: true,
+      deadline: "November 1, 2026 at 5:00 PM EST",
+      deadline_context: "Letters must be received by final cutoff",
+      dependencies: ["req_4"],
+      confidence: 0.98,
+      citation: {
+        id: "cite_8",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 2,
+        section_heading: "3.0 MANDATORY VS. OPTIONAL DOCUMENTS",
+        exact_passage: "Letters of Recommendation (2) | Direct upload by academic mentors on official letterhead | Mandatory",
+        confidence: 0.98,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_9",
-      "title": "Letters of Recommendation (2)",
-      "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "Letters of Recommendation (2) Direct upload by academic mentors on official letterhead Mandatory",
-      "category": "Documents to Prepare",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_d43ceab440",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "Letters of Recommendation (2) Direct upload by academic mentors on official letterhead Mandatory",
-        "char_start": 530,
-        "char_end": 626,
-        "bounding_box": {
-          "x0": 52.0,
-          "y0": 231.25,
-          "x1": 189.83,
-          "y1": 244.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_9",
+      title: "Standardized Test Scores (GRE/GATE) [Optional]",
+      plain_language: "Optional: Official test score report taken within the last 2 years. Submitting scores is completely voluntary.",
+      original_wording: "Standardized Test Scores (GRE/GATE): Official score report within last 2 years. Status: Optional.",
+      category: "Documents to Prepare",
+      is_mandatory: false,
+      deadline: null,
+      deadline_context: null,
+      dependencies: [],
+      confidence: 0.95,
+      citation: {
+        id: "cite_9",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 2,
+        section_heading: "3.0 MANDATORY VS. OPTIONAL DOCUMENTS",
+        exact_passage: "Standardized Test Scores (GRE/GATE) | Official score report within last 2 years | Optional",
+        confidence: 0.95,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "Low"
     },
     {
-      "id": "req_10",
-      "title": "Project Portfolio / GitHub Link",
-      "plain_language": "Optional: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "Project Portfolio / GitHub Link Public URL or compressed ZIP under 10MB Optional / Recommended",
-      "category": "Documents to Prepare",
-      "is_mandatory": false,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_be93655230",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "Project Portfolio / GitHub Link Public URL or compressed ZIP under 10MB Optional / Recommended",
-        "char_start": 627,
-        "char_end": 721,
-        "bounding_box": {
-          "x0": 52.0,
-          "y0": 271.25,
-          "x1": 183.16,
-          "y1": 284.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_10",
+      title: "Statement of Purpose (SOP - Max 1,000 Words, 12pt Font)",
+      plain_language: "Mandatory: Write an essay under 1,000 words detailing research impact, milestones, and societal relevance.",
+      original_wording: "Statement of Purpose (SOP): Maximum 1,000 words, 12pt font, double-spaced. Must explicitly address research impact, technical milestones, and societal relevance.",
+      category: "Application Completion",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: ["req_6"],
+      confidence: 0.98,
+      citation: {
+        id: "cite_10",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 2,
+        section_heading: "4.0 APPLICATION COMPLETION PROCEDURES",
+        exact_passage: "The Statement of Purpose must explicitly address the candidate's proposed research impact, technical milestones, and societal relevance.",
+        confidence: 0.98,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "Medium"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_11",
-      "title": "Standardized Test Scores",
-      "plain_language": "Optional: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "Standardized Test Scores (GRE/GATE) Official score report within last 2 years Optional",
-      "category": "Documents to Prepare",
-      "is_mandatory": false,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_28ddacabb3",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "Standardized Test Scores (GRE/GATE) Official score report within last 2 years Optional",
-        "char_start": 722,
-        "char_end": 808,
-        "bounding_box": {
-          "x0": 52.0,
-          "y0": 311.25,
-          "x1": 167.05,
-          "y1": 324.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_11",
+      title: "Complete All Eight Online Portal Sections",
+      plain_language: "Mandatory: Fill out all 8 sections of the online portal, verifying contact numbers and permanent address.",
+      original_wording: "Candidates shall complete all eight sections of the online application portal. Applicants must verify their personal contact details and permanent address.",
+      category: "Application Completion",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: ["req_4", "req_7"],
+      confidence: 0.97,
+      citation: {
+        id: "cite_11",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 2,
+        section_heading: "4.0 APPLICATION COMPLETION PROCEDURES",
+        exact_passage: "Candidates shall complete all eight sections of the online application portal. Applicants must verify their personal contact details and permanent address.",
+        confidence: 0.97,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "Medium"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_12",
-      "title": "contact details and permanent address. The Statement of Purpose must explicitly address the candidate's",
-      "plain_language": "Mandatory: You need to provide contact details and permanent address. Make sure to fulfill all stated criteria before proceeding.",
-      "original_wording": "contact details and permanent address. The Statement of Purpose must explicitly address the candidate's proposed research impact, technical milestones, and societal relevance. Candidates are encouraged to attach a portfolio highlighting previous open-source software contributions. ",
-      "category": "Application Completion",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_73355ac863",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "contact details and permanent address. The Statement of Purpose must explicitly address the candidate's proposed research impact, technical milestones, and societal relevance. Candidates are encouraged to attach a portfolio highlighting previous open-source software contributions.",
-        "char_start": 964,
-        "char_end": 1245,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 408.25,
-          "x1": 234.98,
-          "y1": 421.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_12",
+      title: "Project Portfolio / GitHub Link [Optional / Recommended]",
+      plain_language: "Optional: Provide a public GitHub URL or project ZIP (<10MB) showcasing previous open-source software contributions.",
+      original_wording: "Project Portfolio / GitHub Link: Public URL or compressed ZIP under 10MB. Candidates are encouraged to attach a portfolio highlighting previous open-source software contributions.",
+      category: "Application Completion",
+      is_mandatory: false,
+      deadline: null,
+      deadline_context: null,
+      dependencies: [],
+      confidence: 0.94,
+      citation: {
+        id: "cite_12",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 2,
+        section_heading: "4.0 APPLICATION COMPLETION PROCEDURES",
+        exact_passage: "Candidates are encouraged to attach a portfolio highlighting previous open-source software contributions.",
+        confidence: 0.94,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "Medium"
     },
     {
-      "id": "req_13",
-      "title": "portfolio highlighting previous open-source software contributions.",
-      "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "portfolio highlighting previous open-source software contributions. ",
-      "category": "Documents to Prepare",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_177f70fed9",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 2,
-        "section_heading": "4.0 APPLICATION COMPLETION PROCEDURES",
-        "exact_passage": "portfolio highlighting previous open-source software contributions.",
-        "char_start": 1178,
-        "char_end": 1245,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 436.25,
-          "x1": 224.97,
-          "y1": 449.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 2 under '4.0 APPLICATION COMPLETION PROCEDURES'"
+      id: "req_13",
+      title: "Fee Waiver Verification ($50 Waived in Section 5.3)",
+      plain_language: "Review Step: Verify that the payment gateway reflects $0. The initial $50 application fee was waived in Section 5.3 for 2026 applicants.",
+      original_wording: "Fee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The $50 fee mentioned previously has been waived for all 2026 applicants.",
+      category: "Final Review",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: ["req_11"],
+      confidence: 0.96,
+      citation: {
+        id: "cite_13",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 3,
+        section_heading: "Section 5.3 Extension Clause & Final Cutoff",
+        exact_passage: "In recognition of global education equity, there is no application fee for any candidate. The $50 fee mentioned previously has been waived for all 2026 applicants.",
+        confidence: 0.96,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_14",
-      "title": "Submit their finalized application through the...",
-      "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-      "original_wording": "Applicants must submit their finalized application through the official Apex Portal.",
-      "category": "Submission",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [
-        "req_1",
-        "req_2",
-        "req_8"
-      ],
-      "confidence": 0.94,
-      "citation": {
-        "id": "cite_0d82012a37",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 3,
-        "section_heading": "support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL",
-        "exact_passage": "Applicants must submit their finalized application through the official Apex Portal.",
-        "char_start": 53,
-        "char_end": 137,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 73.25,
-          "x1": 223.84,
-          "y1": 86.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 3 under 'support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL'"
+      id: "req_14",
+      title: "Uploaded PDF Readability & File Corruption Audit",
+      plain_language: "Mandatory: Open and inspect every uploaded document file to ensure they are crisp, uncorrupted, and legible before submitting.",
+      original_wording: "Applicants must verify that all uploaded PDF files are readable and corruption-free prior to pressing final submit.",
+      category: "Final Review",
+      is_mandatory: true,
+      deadline: null,
+      deadline_context: null,
+      dependencies: ["req_6", "req_7"],
+      confidence: 0.97,
+      citation: {
+        id: "cite_14",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 3,
+        section_heading: "5.0 SUBMISSION INSTRUCTIONS & DISCREPANCY DISCLOSURE",
+        exact_passage: "Applicants must verify that all uploaded PDF files are readable and corruption-free prior to pressing final submit.",
+        confidence: 0.97,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     },
     {
-      "id": "req_15",
-      "title": "Candidates shall retain the unique 10-digit application tracki...",
-      "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-      "original_wording": "candidates shall retain the unique 10-digit application tracking number.",
-      "category": "Submission",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [
-        "req_1",
-        "req_2",
-        "req_8"
-      ],
-      "confidence": 0.94,
-      "citation": {
-        "id": "cite_c2b0d7a0d9",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 3,
-        "section_heading": "support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL",
-        "exact_passage": "candidates shall retain the unique 10-digit application tracking number.",
-        "char_start": 155,
-        "char_end": 227,
-        "bounding_box": {
-          "x0": 492.85,
-          "y0": 73.25,
-          "x1": 541.21,
-          "y1": 86.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 3 under 'support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL'"
+      id: "req_15",
+      title: "Final Application Submission & 10-Digit Tracking Archival",
+      plain_language: "Mandatory: Transmit finalized materials before the cutoff and save the generated 10-digit tracking number for verification.",
+      original_wording: "Applicants must submit their finalized application through the official Apex Portal. Upon submission, candidates shall retain the unique 10-digit application tracking number.",
+      category: "Submission",
+      is_mandatory: true,
+      deadline: "October 15, 2026 (or Nov 1 Addendum)",
+      deadline_context: "Conflicting cutoff dates stated",
+      dependencies: ["req_10", "req_11", "req_14"],
+      confidence: 0.99,
+      citation: {
+        id: "cite_15",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 3,
+        section_heading: "5.0 SUBMISSION INSTRUCTIONS & DISCREPANCY DISCLOSURE",
+        exact_passage: "Applicants must submit their finalized application through the official Apex Portal. Upon submission, candidates shall retain the unique 10-digit application tracking number.",
+        confidence: 0.99,
+        verified: true
       },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
-    },
-    {
-      "id": "req_16",
-      "title": "Submit their finalized application through the official a...",
-      "plain_language": "Mandatory: Submit the finalized materials through the authorized channel before the cutoff.",
-      "original_wording": "must submit their finalized application through the official Apex Portal.",
-      "category": "Submission",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [
-        "req_1",
-        "req_2",
-        "req_8"
-      ],
-      "confidence": 0.94,
-      "citation": {
-        "id": "cite_e42ffcc1da",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 3,
-        "section_heading": "support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL",
-        "exact_passage": "must submit their finalized application through the official Apex Portal.",
-        "char_start": 64,
-        "char_end": 137,
-        "bounding_box": {
-          "x0": 99.91,
-          "y0": 73.25,
-          "x1": 266.08,
-          "y1": 86.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 3 under 'support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL'"
-      },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
-    },
-    {
-      "id": "req_17",
-      "title": "supporting materials and recommendation letters must be received by this extended date.",
-      "plain_language": "Mandatory: Obtain and format this required document exactly as specified by the guidelines.",
-      "original_wording": "supporting materials and recommendation letters must be received by this extended date. Fee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The $50 fee mentioned previously has been waived for all 2026 applicants. 6.0 SUPPORT & INQUIRIES",
-      "category": "Documents to Prepare",
-      "is_mandatory": true,
-      "deadline": null,
-      "deadline_context": null,
-      "dependencies": [],
-      "confidence": 0.96,
-      "citation": {
-        "id": "cite_1405700f91",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 3,
-        "section_heading": "support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL",
-        "exact_passage": "supporting materials and recommendation letters must be received by this extended date. Fee Exemption Notice: In recognition of global education equity, there is no application fee for any candidate. The $50 fee mentioned previously has been waived for all 2026 applicants. 6.0 SUPPORT & INQUIRIES",
-        "char_start": 497,
-        "char_end": 794,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 163.29,
-          "x1": 228.4,
-          "y1": 176.34
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 3 under 'support@apexfellowship2026.org or call +1 (555) 234-5678. Official portal URL'"
-      },
-      "status": "Not Started",
-      "personal_notes": null,
-      "user_reminder": null,
-      "priority": "High"
+      status: "Not Started",
+      priority: "High"
     }
   ],
-  "combined_contradictions": [
+  combined_contradictions: [
     {
-      "id": "contra_1",
-      "title": "Conflicting Application Deadlines",
-      "topic": "deadline",
-      "passage_a": {
-        "id": "cite_8747ec0bd5",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 1,
-        "section_heading": "General",
-        "exact_passage": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-        "char_start": 1082,
-        "char_end": 1188,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 352.25,
-          "x1": 248.88,
-          "y1": 365.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 1 under 'General'"
+      id: "contra_deadline",
+      title: "Conflicting Application Submission Deadlines",
+      topic: "deadline",
+      passage_a: {
+        id: "cite_c1_a",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 1,
+        section_heading: "2.0 IMPORTANT DATES & TIMELINE",
+        exact_passage: "The final submission deadline is October 15, 2026 at 11:59 PM EST. No late submissions or supplemental documents will be accepted after this cutoff.",
+        confidence: 0.98,
+        verified: true
       },
-      "passage_b": {
-        "id": "cite_eda31c2b28",
-        "document_id": "3fbbf911-3c7a-4528-bfbf-fddf4241a431",
-        "document_name": "apex_fellowship_guidelines_2026.pdf",
-        "page_number": 1,
-        "section_heading": "General",
-        "exact_passage": "commence on September 20, 2026. The final submission deadline is October 15, 2026 at 11:59 PM EST. No late",
-        "char_start": 1082,
-        "char_end": 1188,
-        "bounding_box": {
-          "x0": 51.0,
-          "y0": 352.25,
-          "x1": 248.88,
-          "y1": 365.99
-        },
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 1 under 'General'"
+      passage_b: {
+        id: "cite_c1_b",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 3,
+        section_heading: "Section 5.3 Extension Clause & Final Cutoff",
+        exact_passage: "Due to anticipated server maintenance, the final submission deadline is November 1, 2026 at 5:00 PM EST. All supporting materials and recommendation letters must be received by this extended date.",
+        confidence: 0.98,
+        verified: true
       },
-      "discrepancy_explanation": "The document provides two different final dates: 'September 20, 2026' (Page 1) and 'October 15, 2026 at 11:59 PM' (Page 1). It is unclear whether one is an extension or a clerical inconsistency.",
-      "severity": "critical",
-      "suggested_action": "Contact the issuing authority immediately to verify the true binding cutoff date before planning your submission."
+      discrepancy_explanation: "Page 1 states an absolute cutoff of October 15, 2026 at 11:59 PM EST. However, Section 5.3 on Page 3 announces an extension to November 1, 2026 at 5:00 PM EST due to scheduled server maintenance.",
+      severity: "critical",
+      suggested_action: "Aim for October 15 to remain strictly safe, and contact support@apexfellowship2026.org to verify if the server maintenance extension applies to all tracks."
     },
     {
-      "id": "contra_2",
-      "title": "Inconsistent Application Fee Requirement",
-      "topic": "fee",
-      "passage_a": {
-        "id": "cite_92f52d60c7",
-        "document_id": "workspace_all",
-        "document_name": "Workspace Documents",
-        "page_number": 1,
-        "section_heading": "2.0 IMPORTANT DATES & TIMELINE",
-        "exact_passage": "cutoff. Application Fee: Applicants must pay a non-refundable application fee of $50 USD through the payment gateway before submission. ",
-        "char_start": 1255,
-        "char_end": 1391,
-        "bounding_box": null,
-        "confidence": 0.92,
-        "verified": true,
-        "explanation": "Found on Page 1 under '2.0 IMPORTANT DATES & TIMELINE'"
+      id: "contra_fee",
+      title: "Contradictory Application Fee Information",
+      topic: "fee",
+      passage_a: {
+        id: "cite_c2_a",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 1,
+        section_heading: "2.0 IMPORTANT DATES & TIMELINE",
+        exact_passage: "Applicants must pay a non-refundable application fee of $50 USD through the payment gateway before submission.",
+        confidence: 0.96,
+        verified: true
       },
-      "passage_b": {
-        "id": "cite_33df9e5f16",
-        "document_id": "workspace_all",
-        "document_name": "Workspace Documents",
-        "page_number": 3,
-        "section_heading": "Section 5.3 Extension Clause & Final Cutoff",
-        "exact_passage": "candidate. The $50 fee mentioned previously has been waived for all 2026 applicants. 6.0 SUPPORT & INQUIRIES For technical portal issues or",
-        "char_start": 686,
-        "char_end": 825,
-        "bounding_box": null,
-        "confidence": 1.0,
-        "verified": true,
-        "explanation": "Found on Page 3 under 'Section 5.3 Extension Clause & Final Cutoff'"
+      passage_b: {
+        id: "cite_c2_b",
+        document_id: "doc_apex_2026",
+        document_name: "apex_fellowship_guidelines_2026.pdf",
+        page_number: 3,
+        section_heading: "Section 5.3 Extension Clause & Final Cutoff",
+        exact_passage: "In recognition of global education equity, there is no application fee for any candidate. The $50 fee mentioned previously has been waived for all 2026 applicants.",
+        confidence: 0.97,
+        verified: true
       },
-      "discrepancy_explanation": "One section references a fee structure of '50 usd', while another section states 'waived'. This could indicate either conditional fee waivers or conflicting instructions.",
-      "severity": "warning",
-      "suggested_action": "Verify fee requirements with the program billing coordinator prior to final payment submission."
+      discrepancy_explanation: "Section 2.0 initially demands a non-refundable $50 fee, but Section 5.3 explicitly overrides this policy by issuing a blanket equity waiver for all 2026 candidates.",
+      severity: "warning",
+      suggested_action: "Do not pay any fee through unauthorized links. Ensure the portal checkout displays $0.00."
     }
-  ],
-  "action_plan_completed_count": 0,
-  "action_plan_total_count": 17
+  ]
 };
