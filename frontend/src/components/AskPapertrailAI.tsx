@@ -20,7 +20,7 @@ interface Message {
   text: string;
   citations?: ProoflineCitation[];
   confidence?: number;
-  uncertaintyWarning?: string;
+  uncertaintyWarning?: string | null;
   suggestedQuestions?: string[];
   timestamp: string;
 }

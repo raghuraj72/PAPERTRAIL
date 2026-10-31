@@ -24,12 +24,12 @@ export interface ProoflineCitation {
   page_number: number;
   section_heading: string;
   exact_passage: string;
-  char_start?: number;
-  char_end?: number;
-  bounding_box?: BoundingBox;
+  char_start?: number | null;
+  char_end?: number | null;
+  bounding_box?: BoundingBox | null;
   confidence: number;
   verified: boolean;
-  explanation?: string;
+  explanation?: string | null;
 }
 
 export interface Requirement {
@@ -39,21 +39,21 @@ export interface Requirement {
   original_wording: string;
   category: RequirementCategory;
   is_mandatory: boolean;
-  deadline?: string;
-  deadline_context?: string;
+  deadline?: string | null;
+  deadline_context?: string | null;
   dependencies: string[];
   confidence: number;
   citation: ProoflineCitation;
   status: TaskStatus;
-  personal_notes?: string;
-  user_reminder?: string;
+  personal_notes?: string | null;
+  user_reminder?: string | null;
   priority: Priority;
 }
 
 export interface ExtractedDate {
   id: string;
   date_text: string;
-  normalized_date?: string;
+  normalized_date?: string | null;
   event_description: string;
   date_type: string;
   citation: ProoflineCitation;
@@ -98,7 +98,7 @@ export interface DocumentParsed {
   contradictions: Contradiction[];
   missing_or_unclear: string[];
   contact_details: string[];
-  fee_info?: string;
+  fee_info?: string | null;
 }
 
 export interface WorkspaceSummary {
@@ -144,7 +144,7 @@ export interface AskPapertrailResponse {
   confidence: number;
   citations: ProoflineCitation[];
   is_inferred: boolean;
-  uncertainty_warning?: string;
+  uncertainty_warning?: string | null;
   suggested_next_questions: string[];
 }
 
@@ -172,5 +172,5 @@ export interface TranslationResponse {
   original_text: string;
   translated_text: string;
   target_language: string;
-  notes?: string;
+  notes?: string | null;
 }
