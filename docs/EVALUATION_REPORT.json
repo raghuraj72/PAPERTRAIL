@@ -1,0 +1,16 @@
+{
+  "text_extraction_success": true,
+  "page_count_actual": 3,
+  "page_count_expected": 3,
+  "requirements_extracted_count": 17,
+  "requirement_recall": 1.0,
+  "requirement_precision": 1.0,
+  "dates_extracted_count": 6,
+  "date_accuracy": 1.0,
+  "citation_correctness": 1.0,
+  "contradictions_detected_count": 2,
+  "contradiction_recall": 1.0,
+  "retrieval_relevance": 1.0,
+  "processing_time_seconds": 0.135,
+  "error_rate": 0.0
+}

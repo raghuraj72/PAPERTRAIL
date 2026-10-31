@@ -1,0 +1,92 @@
+{
+  "benchmark_name": "THE APPLICATION CLARITY CHALLENGE",
+  "document_filename": "apex_fellowship_guidelines_2026.pdf",
+  "document_type": "Scholarship & Grant Guidelines",
+  "expected_page_count": 3,
+  "expected_requirements": [
+    {
+      "keyword": "gpa",
+      "category": "Eligibility Verification",
+      "is_mandatory": true,
+      "page": 1,
+      "phrase": "minimum cumulative grade point average (GPA) of 3.2"
+    },
+    {
+      "keyword": "enrollment",
+      "category": "Eligibility Verification",
+      "is_mandatory": true,
+      "page": 1,
+      "phrase": "proof of active university enrollment"
+    },
+    {
+      "keyword": "transcript",
+      "category": "Documents to Prepare",
+      "is_mandatory": true,
+      "page": 2,
+      "phrase": "Official Academic Transcript"
+    },
+    {
+      "keyword": "photo id",
+      "category": "Documents to Prepare",
+      "is_mandatory": true,
+      "page": 2,
+      "phrase": "Government-Issued Photo ID"
+    },
+    {
+      "keyword": "statement of purpose",
+      "category": "Application Completion",
+      "is_mandatory": true,
+      "page": 2,
+      "phrase": "Statement of Purpose"
+    },
+    {
+      "keyword": "recommendation",
+      "category": "Documents to Prepare",
+      "is_mandatory": true,
+      "page": 2,
+      "phrase": "Letters of Recommendation"
+    },
+    {
+      "keyword": "submit",
+      "category": "Submission",
+      "is_mandatory": true,
+      "page": 3,
+      "phrase": "submit their finalized application through the official Apex Portal"
+    }
+  ],
+  "expected_dates": [
+    {
+      "date_text": "August 15, 2026",
+      "page": 1,
+      "type": "registration_open"
+    },
+    {
+      "date_text": "September 20, 2026",
+      "page": 1,
+      "type": "review_period"
+    },
+    {
+      "date_text": "October 15, 2026",
+      "page": 1,
+      "type": "stated_deadline"
+    },
+    {
+      "date_text": "November 1, 2026",
+      "page": 3,
+      "type": "stated_deadline"
+    }
+  ],
+  "expected_contradictions": [
+    {
+      "topic": "deadline",
+      "description": "Contradiction between October 15, 2026 (Page 1) and November 1, 2026 (Page 3)"
+    },
+    {
+      "topic": "fee",
+      "description": "Contradiction between $50 USD application fee (Page 1) and fee waived / no application fee (Page 3)"
+    }
+  ],
+  "expected_contacts": [
+    "support@apexfellowship2026.org"
+  ]
+}
